@@ -1,0 +1,144 @@
+//
+//  Helper.pch
+//  FD_iPad
+//
+//  Created by 郭军 on 2019/4/25.
+//  Copyright © 2019 ZYWL. All rights reserved.
+//
+
+#ifndef Helper_pch
+#define Helper_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+////////////////////////////////////////////////////////////////////////////
+//#ifdef DEBUG //处于开发阶段
+#if defined(DEBUG) || defined(_DEBUG) //处于开发阶段
+#define DevepMent 2  //1为开发接口， 2为正式接口
+#else //处于上线阶段
+#define DevepMent 0  //0为正式接口，永远不要改
+#endif
+
+/****************************开发接口**************************/
+#if DevepMent == 1
+
+#define HttpBaseUrl @"http://"
+// webSocket 相关
+#define kWSDomain @"ws://"
+//#import "JGModelFileTool.h"
+
+//测试环境 自定义Log日志输出
+#define JGLog(fmt, ...) NSLog((@"%s [Line %d] " fmt),__PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define JGLogFunc JGLog(@"%s", __func__);
+
+/****************************正式接口**************************/
+#elif DevepMent == 2
+
+#define HttpBaseUrl @"https://v2.api.ie"
+// webSocket 相关
+#define kWSDomain @"ws://v2.api.ie"
+
+// 正式环境 自定义Log日志输出
+//#define JGLog(...)
+//#define JGLogFunc JGLog(...);
+#define JGLog(fmt, ...) NSLog((@"%s [Line %d] " fmt),__PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define JGLogFunc JGLog(@"%s", __func__);
+
+
+/****************************打包接口**************************/
+#elif DevepMent == 0
+
+#define HttpBaseUrl @"https://v2.api.ie"
+// webSocket 相关
+#define kWSDomain @"ws://v2.api.ie"
+
+// 打包 自定义Log日志输出
+#define JGLog(...)
+#define JGLogFunc JGLog(...);
+#endif
+////////////////////////////////////////////////////////////////////////////
+
+
+
+#define kPicDomain  @""
+
+//google地图key
+#define kGoogleMapAPIKey @""
+
+
+
+/****************  国际化常量  *********************/
+#import "ZYConst.h"
+
+/*****************  工具头文件 *****************/
+#import "JGToolsHeader.h"
+#import "JGCommonTools.h"
+
+/****************  分类  *********************/
+#import "JGCategoryHeader.h"
+
+
+
+
+
+#define USER_ID [JGCommonTools getUserDefaultsWithKey:@"user_id"]
+#define USER_TOKEN [JGCommonTools getUserDefaultsWithKey:@"token"]
+
+
+/***********************  快速设置  *************************/
+#define JGApplication  [UIApplication sharedApplication]
+#define JGUserDefaults [NSUserDefaults standardUserDefaults]
+#define JGNotification [NSNotificationCenter defaultCenter] //通知
+#define JGFont(size) [UIFont systemFontOfSize:size] //字体尺寸
+#define JGBoldFont(size1) [UIFont fontWithName:@"Helvetica-Bold" size:size1] //加粗字体尺寸
+
+
+/** 弱引用 */
+#define WEAKSELF __weak typeof(self) weakSelf = self
+#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+/** 避免self的提前释放 */
+#define STRONGSELF __weak typeof(weakSelf) strongSelf = weakSelf
+
+
+/*******************************  尺寸  ***********************************/
+#define kDeviceHight [UIScreen mainScreen].bounds.size.height
+#define kDeviceWidth [UIScreen mainScreen].bounds.size.width
+//导航栏高度
+#define SJHeight ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? 86 : 64)
+//5s缩放宽度
+#define kScaleWidth(value) ((value)/375.0f * kDeviceWidth)
+//宽高等比缩放  这里是针对1024*768 尺寸标准适配的,如果需要其他标准可以修改
+#define kWidthScale(R) ((R)*(kDeviceWidth/1024.0f))
+#define kHeightScale(R) ((R)*(kDeviceHight/768.0f))
+
+
+/*************************  颜色  *********************************/
+//颜色定义
+#define JGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define JGRandomColor   JGRGBColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+
+//主色调
+#define JGMainColor [UIColor colorWithHexCode:@"#E54B4B"]
+#define JGPinkColor [UIColor colorWithHexCode:@"#FDE7E7"]
+#define JG28Color [UIColor colorWithHexCode:@"#282828"]
+#define JG50Color [UIColor colorWithHexCode:@"#505050"]
+#define JG666Color [UIColor colorWithHexCode:@"#666666"]
+#define JGF2Color [UIColor colorWithHexCode:@"#F2F2F2"]
+#define JGLineColor [UIColor colorWithHexCode:@"#C1C1C1"]
+
+#define JGHexColor(hexCode) [UIColor colorWithHexCode:hexCode]
+
+
+/**********纯色图片**********/
+#define Image(name) [UIImage imageNamed:name]
+#define WhiteImage [UIImage imageWithColor:[UIColor whiteColor]]
+#define JGMainColorImage [UIImage imageWithColor:JGMainColor]
+#define JGPinkColorImage [UIImage imageWithColor:JGPinkColor]
+//根据颜色值生成图片
+#define JGColorImage(hexCode) [UIImage imageWithColor:[UIColor colorWithHexCode:hexCode]]
+//根据图片生成白色图片
+#define JGWhiteColorImage(name) [[UIImage imageNamed:name] imageChangeColor:[UIColor whiteColor]]
+
+
+#endif /* Helper_pch */
