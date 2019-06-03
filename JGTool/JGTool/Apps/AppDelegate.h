@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+/** 标记网络状态  */
+@property (nonatomic, assign)BOOL isReachable;
 
 @end
 

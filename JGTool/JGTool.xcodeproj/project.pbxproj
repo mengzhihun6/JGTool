@@ -71,6 +71,13 @@
 		636ECACA22991A9400F292C2 /* JGWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECAC522991A9400F292C2 /* JGWeakProxy.m */; };
 		636ECACB22991A9400F292C2 /* JGFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECAC722991A9400F292C2 /* JGFPSLabel.m */; };
 		636ECAD022991B0B00F292C2 /* JGLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECACF22991B0A00F292C2 /* JGLocationUtil.m */; };
+		63B12C6922A4EBAA0095BEC6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C6722A4EBAA0095BEC6 /* MBProgressHUD.m */; };
+		63B12C8222A4EF680095BEC6 /* JGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8122A4EF680095BEC6 /* JGNavigationController.m */; };
+		63B12C8522A4EF9F0095BEC6 /* JGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8422A4EF9F0095BEC6 /* JGTabBarController.m */; };
+		63B12C8822A4EFB20095BEC6 /* JGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8722A4EFB20095BEC6 /* JGBaseViewController.m */; };
+		63B12C8B22A4EFDA0095BEC6 /* JGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8A22A4EFDA0095BEC6 /* JGHomeController.m */; };
+		63B12C8E22A4EFF00095BEC6 /* JGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8D22A4EFF00095BEC6 /* JGMineController.m */; };
+		63B12C9122A4F95D0095BEC6 /* JGWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C9022A4F95D0095BEC6 /* JGWKWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,6 +231,20 @@
 		636ECACC22991ADD00F292C2 /* HMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSingleton.h; sourceTree = "<group>"; };
 		636ECACE22991B0A00F292C2 /* JGLocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGLocationUtil.h; sourceTree = "<group>"; };
 		636ECACF22991B0A00F292C2 /* JGLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGLocationUtil.m; sourceTree = "<group>"; };
+		63B12C6722A4EBAA0095BEC6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		63B12C6822A4EBAA0095BEC6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		63B12C8022A4EF680095BEC6 /* JGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGNavigationController.h; sourceTree = "<group>"; };
+		63B12C8122A4EF680095BEC6 /* JGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGNavigationController.m; sourceTree = "<group>"; };
+		63B12C8322A4EF9F0095BEC6 /* JGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGTabBarController.h; sourceTree = "<group>"; };
+		63B12C8422A4EF9F0095BEC6 /* JGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGTabBarController.m; sourceTree = "<group>"; };
+		63B12C8622A4EFB20095BEC6 /* JGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGBaseViewController.h; sourceTree = "<group>"; };
+		63B12C8722A4EFB20095BEC6 /* JGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGBaseViewController.m; sourceTree = "<group>"; };
+		63B12C8922A4EFDA0095BEC6 /* JGHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGHomeController.h; sourceTree = "<group>"; };
+		63B12C8A22A4EFDA0095BEC6 /* JGHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGHomeController.m; sourceTree = "<group>"; };
+		63B12C8C22A4EFF00095BEC6 /* JGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGMineController.h; sourceTree = "<group>"; };
+		63B12C8D22A4EFF00095BEC6 /* JGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGMineController.m; sourceTree = "<group>"; };
+		63B12C8F22A4F95D0095BEC6 /* JGWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGWKWebViewController.h; sourceTree = "<group>"; };
+		63B12C9022A4F95D0095BEC6 /* JGWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGWKWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,16 +295,8 @@
 		636EC7592299162E00F292C2 /* JGTool */ = {
 			isa = PBXGroup;
 			children = (
-				636ECACD22991B0A00F292C2 /* LocationUtil */,
-				636ECABD22991A9400F292C2 /* DEBUG */,
-				636ECAB922991A0E00F292C2 /* DownImageTool */,
-				636EC9FF2299177800F292C2 /* JGToolsHeader.h */,
-				636ECA642299177800F292C2 /* Common */,
-				636ECA0F2299177800F292C2 /* Category */,
-				636ECA002299177800F292C2 /* CommonView */,
-				636EC9FB2299177800F292C2 /* ThirdLib */,
-				636ECA6A2299177800F292C2 /* JGCreateModelFile */,
 				636ECAB72299178500F292C2 /* Apps */,
+				63B12C6B22A4EE480095BEC6 /* ClassPath */,
 				636EC75D2299162E00F292C2 /* ViewController.h */,
 				636EC75E2299162E00F292C2 /* ViewController.m */,
 				636ECAB82299179500F292C2 /* Supporting Files */,
@@ -312,6 +325,8 @@
 		636EC9FB2299177800F292C2 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				63B12C6822A4EBAA0095BEC6 /* MBProgressHUD.h */,
+				63B12C6722A4EBAA0095BEC6 /* MBProgressHUD.m */,
 				636EC9FC2299177800F292C2 /* Reachability */,
 			);
 			path = ThirdLib;
@@ -606,6 +621,178 @@
 			path = LocationUtil;
 			sourceTree = "<group>";
 		};
+		63B12C6A22A4EE260095BEC6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				636EC9FF2299177800F292C2 /* JGToolsHeader.h */,
+				636ECA642299177800F292C2 /* Common */,
+				636ECACD22991B0A00F292C2 /* LocationUtil */,
+				636ECABD22991A9400F292C2 /* DEBUG */,
+				636ECAB922991A0E00F292C2 /* DownImageTool */,
+				636ECA0F2299177800F292C2 /* Category */,
+				636ECA002299177800F292C2 /* CommonView */,
+				636EC9FB2299177800F292C2 /* ThirdLib */,
+				636ECA6A2299177800F292C2 /* JGCreateModelFile */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		63B12C6B22A4EE480095BEC6 /* ClassPath */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C6C22A4EE580095BEC6 /* Base */,
+				63B12C6D22A4EE7E0095BEC6 /* General */,
+				63B12C6A22A4EE260095BEC6 /* Tool */,
+			);
+			path = ClassPath;
+			sourceTree = "<group>";
+		};
+		63B12C6C22A4EE580095BEC6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C7A22A4EF0A0095BEC6 /* Ctrls */,
+				63B12C7B22A4EF0A0095BEC6 /* Model */,
+				63B12C7C22A4EF0A0095BEC6 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		63B12C6D22A4EE7E0095BEC6 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C6E22A4EEC10095BEC6 /* Public */,
+				63B12C7222A4EEC20095BEC6 /* Home */,
+				63B12C7622A4EEC20095BEC6 /* Mine */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		63B12C6E22A4EEC10095BEC6 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C6F22A4EEC10095BEC6 /* Ctrls */,
+				63B12C7022A4EEC10095BEC6 /* Model */,
+				63B12C7122A4EEC10095BEC6 /* View */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		63B12C6F22A4EEC10095BEC6 /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		63B12C7022A4EEC10095BEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63B12C7122A4EEC10095BEC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63B12C7222A4EEC20095BEC6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C7322A4EEC20095BEC6 /* Ctrls */,
+				63B12C7422A4EEC20095BEC6 /* Model */,
+				63B12C7522A4EEC20095BEC6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63B12C7322A4EEC20095BEC6 /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C8922A4EFDA0095BEC6 /* JGHomeController.h */,
+				63B12C8A22A4EFDA0095BEC6 /* JGHomeController.m */,
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		63B12C7422A4EEC20095BEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63B12C7522A4EEC20095BEC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63B12C7622A4EEC20095BEC6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C7722A4EEC20095BEC6 /* Ctrls */,
+				63B12C7822A4EEC20095BEC6 /* Model */,
+				63B12C7922A4EEC20095BEC6 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		63B12C7722A4EEC20095BEC6 /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C8C22A4EFF00095BEC6 /* JGMineController.h */,
+				63B12C8D22A4EFF00095BEC6 /* JGMineController.m */,
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		63B12C7822A4EEC20095BEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63B12C7922A4EEC20095BEC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63B12C7A22A4EF0A0095BEC6 /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				63B12C8022A4EF680095BEC6 /* JGNavigationController.h */,
+				63B12C8122A4EF680095BEC6 /* JGNavigationController.m */,
+				63B12C8322A4EF9F0095BEC6 /* JGTabBarController.h */,
+				63B12C8422A4EF9F0095BEC6 /* JGTabBarController.m */,
+				63B12C8622A4EFB20095BEC6 /* JGBaseViewController.h */,
+				63B12C8722A4EFB20095BEC6 /* JGBaseViewController.m */,
+				63B12C8F22A4F95D0095BEC6 /* JGWKWebViewController.h */,
+				63B12C9022A4F95D0095BEC6 /* JGWKWebViewController.m */,
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		63B12C7B22A4EF0A0095BEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63B12C7C22A4EF0A0095BEC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -743,6 +930,7 @@
 				636ECAD022991B0B00F292C2 /* JGLocationUtil.m in Sources */,
 				636ECA932299177900F292C2 /* UIScrollView+JGAllowPanGestureEventPass.m in Sources */,
 				636ECAAF2299177900F292C2 /* YBMFNameHandler.m in Sources */,
+				63B12C6922A4EBAA0095BEC6 /* MBProgressHUD.m in Sources */,
 				636ECAA72299177900F292C2 /* NSString+JGUrl.m in Sources */,
 				636ECAAC2299177900F292C2 /* JGCommonTools.m in Sources */,
 				636ECA922299177900F292C2 /* UITextField+JGFormatNumber.m in Sources */,
@@ -761,6 +949,7 @@
 				636ECAA32299177900F292C2 /* NSDate+JGExtension.m in Sources */,
 				636ECA8B2299177900F292C2 /* UIImage+JGRotate.m in Sources */,
 				636ECA972299177900F292C2 /* UILabel+JGCopy.m in Sources */,
+				63B12C8822A4EFB20095BEC6 /* JGBaseViewController.m in Sources */,
 				636EC76A2299163000F292C2 /* main.m in Sources */,
 				636ECA902299177900F292C2 /* UIViewController+JGPopBlock.m in Sources */,
 				636ECA8F2299177900F292C2 /* UIColor+JGHexColor.m in Sources */,
@@ -769,6 +958,8 @@
 				636ECA882299177900F292C2 /* UIImage+JGColor.m in Sources */,
 				636ECA9A2299177900F292C2 /* NSDictionary+JGSafe.m in Sources */,
 				636ECA8D2299177900F292C2 /* UIBarButtonItem+JGAddition.m in Sources */,
+				63B12C8522A4EF9F0095BEC6 /* JGTabBarController.m in Sources */,
+				63B12C8E22A4EFF00095BEC6 /* JGMineController.m in Sources */,
 				636ECAA02299177900F292C2 /* NSData+Hex.m in Sources */,
 				636ECA892299177900F292C2 /* UIImage+JGQRCode.m in Sources */,
 				636ECACA22991A9400F292C2 /* JGWeakProxy.m in Sources */,
@@ -776,8 +967,10 @@
 				636ECA872299177900F292C2 /* UIImage+JGGif.m in Sources */,
 				636ECA852299177900F292C2 /* JGProgressBar.m in Sources */,
 				636ECAA82299177900F292C2 /* NSString+JGCache.m in Sources */,
+				63B12C8B22A4EFDA0095BEC6 /* JGHomeController.m in Sources */,
 				636ECAB42299177900F292C2 /* YBModelFile.m in Sources */,
 				636ECA962299177900F292C2 /* UIControl+JGBtnClickLimit.m in Sources */,
+				63B12C8222A4EF680095BEC6 /* JGNavigationController.m in Sources */,
 				636ECAB12299177900F292C2 /* YBMFFileHHandler.m in Sources */,
 				636ECA982299177900F292C2 /* UILabel+JGAutoFrame.m in Sources */,
 				636ECABC22991A0E00F292C2 /* JGSaveDownImageTool.m in Sources */,
@@ -790,6 +983,7 @@
 				636ECAB32299177900F292C2 /* YBMFConfig.m in Sources */,
 				636ECA9E2299177900F292C2 /* NSArray+JGSafe.m in Sources */,
 				636EC75C2299162E00F292C2 /* AppDelegate.m in Sources */,
+				63B12C9122A4F95D0095BEC6 /* JGWKWebViewController.m in Sources */,
 				636ECA842299177900F292C2 /* QJCustomHUD.m in Sources */,
 				636ECA942299177900F292C2 /* UILabel+JGExtension.m in Sources */,
 				636ECAA42299177900F292C2 /* NSMutableAttributedString+JGExtension.m in Sources */,
@@ -900,7 +1094,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -953,7 +1147,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -966,8 +1160,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = JGTool/Common/Helper.pch;
+				GCC_PREFIX_HEADER = JGTool/ClassPath/Tool/Common/Helper.pch;
 				INFOPLIST_FILE = JGTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -983,8 +1178,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = JGTool/Common/Helper.pch;
+				GCC_PREFIX_HEADER = JGTool/ClassPath/Tool/Common/Helper.pch;
 				INFOPLIST_FILE = JGTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

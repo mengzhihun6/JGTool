@@ -102,7 +102,7 @@
 - (void)showAnimation
 {
     [UIView animateWithDuration:0.3 animations:^{
-        _contentView.alpha = 1.0;
+        self->_contentView.alpha = 1.0;
     }];
 }
 
@@ -110,7 +110,7 @@
 - (void)hideAnimation
 {
     [UIView animateWithDuration:0.3 animations:^{
-        _contentView.alpha = 0.0;
+        self->_contentView.alpha = 0.0;
     } completion:^(BOOL finished) {
         [self dismissToast];
     }];

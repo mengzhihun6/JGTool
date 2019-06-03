@@ -78,7 +78,7 @@
 /****************  分类  *********************/
 #import "JGCategoryHeader.h"
 
-
+#import "Reachability.h"
 
 
 
@@ -120,12 +120,9 @@
 
 //主色调
 #define JGMainColor [UIColor colorWithHexCode:@"#E54B4B"]
-#define JGPinkColor [UIColor colorWithHexCode:@"#FDE7E7"]
-#define JG28Color [UIColor colorWithHexCode:@"#282828"]
-#define JG50Color [UIColor colorWithHexCode:@"#505050"]
 #define JG666Color [UIColor colorWithHexCode:@"#666666"]
-#define JGF2Color [UIColor colorWithHexCode:@"#F2F2F2"]
 #define JGLineColor [UIColor colorWithHexCode:@"#C1C1C1"]
+
 
 #define JGHexColor(hexCode) [UIColor colorWithHexCode:hexCode]
 

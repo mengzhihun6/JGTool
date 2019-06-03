@@ -29,34 +29,34 @@
     NSString *Api;
     
     if (type == AdvertisingImage) {
-        Api = ConfigurationLoginImage;
+        Api = @"";
     }else if (type == DeliveryOptionsType) {
-        Api = ConfigurationdiningMethodImage;
+        Api = @"";
     }
     
     
     // TODO 请求广告接口
-    FDWeakSelf;
-    [ZYHttpManager HttpRequestDataWithApi:Api Aarameters:@{} httpMthod:POST Success:^(id data, NSString *event, NSString *message) {
-        
-        //{"event":"SUCCESS","data":{"image":"public/470ddd141a93440a8195d6583a9db585"},"describe":""}
-        NSString *imageUrl = data[@"image"];
-        
-        // 获取图片名:43-130P5122Z60-50.jpg
-        NSArray *stringArr = [imageUrl componentsSeparatedByString:@"/"];
-        NSString *imageName = stringArr.lastObject;
-        
-        // 拼接沙盒路径
-        NSString *filePath = [self getFilePathWithImageName:imageName];
-        BOOL isExist = [self isFileExistWithFilePath:filePath];
-        if (!isExist){// 如果该图片不存在，则删除老图片，下载新图片
-            
-            [weakSelf downloadAdImageWithUrl:imageUrl imageName:imageName WithType:type];
-        }
-        
-    } failure:^(NSString *event, NSString *message) {
-        
-    }];
+//    WEAKSELF;
+//    [ZYHttpManager HttpRequestDataWithApi:Api Aarameters:@{} httpMthod:POST Success:^(id data, NSString *event, NSString *message) {
+//
+//        //{"event":"SUCCESS","data":{"image":"public/470ddd141a93440a8195d6583a9db585"},"describe":""}
+//        NSString *imageUrl = data[@"image"];
+//
+//        // 获取图片名:43-130P5122Z60-50.jpg
+//        NSArray *stringArr = [imageUrl componentsSeparatedByString:@"/"];
+//        NSString *imageName = stringArr.lastObject;
+//
+//        // 拼接沙盒路径
+//        NSString *filePath = [self getFilePathWithImageName:imageName];
+//        BOOL isExist = [self isFileExistWithFilePath:filePath];
+//        if (!isExist){// 如果该图片不存在，则删除老图片，下载新图片
+//
+//            [weakSelf downloadAdImageWithUrl:imageUrl imageName:imageName WithType:type];
+//        }
+//
+//    } failure:^(NSString *event, NSString *message) {
+//
+//    }];
     
 }
 
@@ -77,9 +77,9 @@
             
             NSString *ImageKey;
             if (type == AdvertisingImage) {
-                ImageKey = LoginPageBgImageName;
+                ImageKey = @"";
             }else if (type == DeliveryOptionsType) {
-                ImageKey = DeliveryOptionsBgImageName;
+                ImageKey = @"";
             }
             
             [self deleteOldImageWithImageName:ImageKey];

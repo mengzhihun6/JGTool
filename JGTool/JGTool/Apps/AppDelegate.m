@@ -7,18 +7,89 @@
 //
 
 #import "AppDelegate.h"
+#import "JGTabBarController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) Reachability *hostReach;
 @end
 
 @implementation AppDelegate
 
 
+
+//创建窗口和可视控制器
+- (void)createWindowAndVisibleCtr {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    self.window.rootViewController = [[JGTabBarController alloc] init];
+    
+    //适配iOS11
+    if (@available(iOS 11.0, *)) {
+        UITableView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        UITableView.appearance.estimatedRowHeight = 0;
+        UITableView.appearance.estimatedSectionFooterHeight = 0;
+        UITableView.appearance.estimatedSectionHeaderHeight = 0;
+    }
+    
+    [self.window makeKeyAndVisible];
+}
+
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self createWindowAndVisibleCtr];
+    
+    //网络监测
+    [self judgeNetWorkState];
+    
+    
     return YES;
 }
+
+
+
+#pragma mark - 网络监测 -
+- (void)judgeNetWorkState {
+    
+    //先设置网络监测状态为YES
+    self.isReachable = YES;
+    
+    //开启网络状况的监听
+    [JGNotification addObserver:self
+                       selector:@selector(reachabilityChanged:)
+                           name:kReachabilityChangedNotification
+                         object:nil];
+    self.hostReach = [Reachability reachabilityWithHostname:@"v2.api.dev.fudiandmore.ie"] ;
+    [self.hostReach startNotifier];  //开始监听，会启动一个run loop
+}
+
+//网络链接改变时会调用的方法
+- (void)reachabilityChanged:(NSNotification *)note {
+    Reachability *currReach = [note object];
+    NSParameterAssert([currReach isKindOfClass:[Reachability class]]);
+    
+    //对连接改变做出响应处理动作
+    NetworkStatus status = [currReach currentReachabilityStatus];
+    //如果没有连接到网络就弹出提醒实况
+    if(status == NotReachable)
+    {
+        self.isReachable = NO;
+        [QJCustomHUD showError:@"Network connection error, please try again later"];
+        JGLog(@"无网====-");
+    }
+    else
+    {
+        JGLog(@"有网------");
+        self.isReachable = YES;
+    }
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

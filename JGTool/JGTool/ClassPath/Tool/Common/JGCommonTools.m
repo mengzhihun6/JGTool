@@ -8,7 +8,7 @@
 
 #import "JGCommonTools.h"
 //#import <CommonCrypto/CommonDigest.h>
-#import "ZYAppDelegate.h"
+#import "AppDelegate.h"
 
 @implementation JGCommonTools
 
@@ -539,7 +539,7 @@
 #pragma mark - 网络监测 -
 + (BOOL)isNetWorkReachable {
     
-    ZYAppDelegate *appDelagate = (ZYAppDelegate *)[[UIApplication sharedApplication] delegate];
+    AppDelegate *appDelagate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     if (appDelagate.isReachable == NO) {
         dispatch_async(dispatch_get_main_queue(), ^{
              [QJCustomHUD showError:@"Network connection error, please check the network" ];
@@ -583,7 +583,12 @@
             UIApplication * app = [UIApplication sharedApplication];
             if ([app canOpenURL:[NSURL URLWithString:PhoneStr]]) {
                 
-                [app openURL:[NSURL URLWithString:PhoneStr]];
+                if (@available(iOS 10.0, *)) {
+                    [app openURL:[NSURL URLWithString:PhoneStr] options:@{} completionHandler:nil];
+                } else {
+                    // Fallback on earlier versions
+                    [app openURL:[NSURL URLWithString:PhoneStr]];
+                }
             }
         }
     }else {
@@ -619,7 +624,12 @@
                 UIApplication * app = [UIApplication sharedApplication];
                 if ([app canOpenURL:[NSURL URLWithString:PhoneStr]]) {
                     
-                    [app openURL:[NSURL URLWithString:PhoneStr]];
+                    if (@available(iOS 10.0, *)) {
+                        [app openURL:[NSURL URLWithString:PhoneStr] options:@{} completionHandler:nil];
+                    } else {
+                        // Fallback on earlier versions
+                        [app openURL:[NSURL URLWithString:PhoneStr] ];
+                    }
                 }
             }
         }]];
