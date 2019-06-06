@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632A202522A8F4650008118D /* NSString+JGStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A201722A8F4640008118D /* NSString+JGStringAttribute.m */; };
+		632A202622A8F4650008118D /* NSMutableAttributedString+JGStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A201822A8F4640008118D /* NSMutableAttributedString+JGStringAttribute.m */; };
+		632A202722A8F4650008118D /* JGForegroundColorAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A201A22A8F4640008118D /* JGForegroundColorAttribute.m */; };
+		632A202822A8F4650008118D /* JGFontAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A201B22A8F4640008118D /* JGFontAttribute.m */; };
+		632A202922A8F4650008118D /* JGStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A202222A8F4640008118D /* JGStringAttribute.m */; };
+		632A202A22A8F4650008118D /* JGAttributeStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A202422A8F4640008118D /* JGAttributeStringTool.m */; };
 		636EC75C2299162E00F292C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EC75B2299162E00F292C2 /* AppDelegate.m */; };
 		636EC75F2299162E00F292C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EC75E2299162E00F292C2 /* ViewController.m */; };
 		636EC7622299162E00F292C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636EC7602299162E00F292C2 /* Main.storyboard */; };
@@ -98,6 +104,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632A201522A8F4640008118D /* NSString+JGStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JGStringAttribute.h"; sourceTree = "<group>"; };
+		632A201622A8F4640008118D /* NSMutableAttributedString+JGStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+JGStringAttribute.h"; sourceTree = "<group>"; };
+		632A201722A8F4640008118D /* NSString+JGStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JGStringAttribute.m"; sourceTree = "<group>"; };
+		632A201822A8F4640008118D /* NSMutableAttributedString+JGStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+JGStringAttribute.m"; sourceTree = "<group>"; };
+		632A201A22A8F4640008118D /* JGForegroundColorAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGForegroundColorAttribute.m; sourceTree = "<group>"; };
+		632A201B22A8F4640008118D /* JGFontAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGFontAttribute.m; sourceTree = "<group>"; };
+		632A201C22A8F4640008118D /* JGForegroundColorAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGForegroundColorAttribute.h; sourceTree = "<group>"; };
+		632A201D22A8F4640008118D /* JGFontAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGFontAttribute.h; sourceTree = "<group>"; };
+		632A201E22A8F4640008118D /* JGAttributeStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAttributeStringTool.h; sourceTree = "<group>"; };
+		632A202022A8F4640008118D /* JGStringAttributeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGStringAttributeProtocol.h; sourceTree = "<group>"; };
+		632A202122A8F4640008118D /* JGStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGStringAttribute.h; sourceTree = "<group>"; };
+		632A202222A8F4640008118D /* JGStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGStringAttribute.m; sourceTree = "<group>"; };
+		632A202322A8F4640008118D /* JGStringAttributeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGStringAttributeHelper.h; sourceTree = "<group>"; };
+		632A202422A8F4640008118D /* JGAttributeStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAttributeStringTool.m; sourceTree = "<group>"; };
 		636EC7572299162E00F292C2 /* JGTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636EC75A2299162E00F292C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		636EC75B2299162E00F292C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -272,6 +292,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		632A201322A8F4640008118D /* StringAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				632A202322A8F4640008118D /* JGStringAttributeHelper.h */,
+				632A201E22A8F4640008118D /* JGAttributeStringTool.h */,
+				632A202422A8F4640008118D /* JGAttributeStringTool.m */,
+				632A201422A8F4640008118D /* JGStringAttribute+Category */,
+				632A201922A8F4640008118D /* JGConcreteAttribute */,
+				632A201F22A8F4640008118D /* JGAbstractAttribute */,
+			);
+			path = StringAttribute;
+			sourceTree = "<group>";
+		};
+		632A201422A8F4640008118D /* JGStringAttribute+Category */ = {
+			isa = PBXGroup;
+			children = (
+				632A201522A8F4640008118D /* NSString+JGStringAttribute.h */,
+				632A201622A8F4640008118D /* NSMutableAttributedString+JGStringAttribute.h */,
+				632A201722A8F4640008118D /* NSString+JGStringAttribute.m */,
+				632A201822A8F4640008118D /* NSMutableAttributedString+JGStringAttribute.m */,
+			);
+			path = "JGStringAttribute+Category";
+			sourceTree = "<group>";
+		};
+		632A201922A8F4640008118D /* JGConcreteAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				632A201A22A8F4640008118D /* JGForegroundColorAttribute.m */,
+				632A201B22A8F4640008118D /* JGFontAttribute.m */,
+				632A201C22A8F4640008118D /* JGForegroundColorAttribute.h */,
+				632A201D22A8F4640008118D /* JGFontAttribute.h */,
+			);
+			path = JGConcreteAttribute;
+			sourceTree = "<group>";
+		};
+		632A201F22A8F4640008118D /* JGAbstractAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				632A202022A8F4640008118D /* JGStringAttributeProtocol.h */,
+				632A202122A8F4640008118D /* JGStringAttribute.h */,
+				632A202222A8F4640008118D /* JGStringAttribute.m */,
+			);
+			path = JGAbstractAttribute;
+			sourceTree = "<group>";
+		};
 		636EC74E2299162E00F292C2 = {
 			isa = PBXGroup;
 			children = (
@@ -625,6 +690,7 @@
 			isa = PBXGroup;
 			children = (
 				636EC9FF2299177800F292C2 /* JGToolsHeader.h */,
+				632A201322A8F4640008118D /* StringAttribute */,
 				636ECA642299177800F292C2 /* Common */,
 				636ECACD22991B0A00F292C2 /* LocationUtil */,
 				636ECABD22991A9400F292C2 /* DEBUG */,
@@ -932,12 +998,15 @@
 				636ECAAF2299177900F292C2 /* YBMFNameHandler.m in Sources */,
 				63B12C6922A4EBAA0095BEC6 /* MBProgressHUD.m in Sources */,
 				636ECAA72299177900F292C2 /* NSString+JGUrl.m in Sources */,
+				632A202622A8F4650008118D /* NSMutableAttributedString+JGStringAttribute.m in Sources */,
 				636ECAAC2299177900F292C2 /* JGCommonTools.m in Sources */,
 				636ECA922299177900F292C2 /* UITextField+JGFormatNumber.m in Sources */,
 				636ECAA12299177900F292C2 /* QJFormatDateTime.m in Sources */,
 				636ECA8A2299177900F292C2 /* UIImage+JGSubImage.m in Sources */,
 				636ECAB22299177900F292C2 /* YBMFCodeForParentHandler.m in Sources */,
 				636ECA912299177900F292C2 /* UIButton+JGLayout.m in Sources */,
+				632A202822A8F4650008118D /* JGFontAttribute.m in Sources */,
+				632A202722A8F4650008118D /* JGForegroundColorAttribute.m in Sources */,
 				636ECA952299177900F292C2 /* MBProgressHUD+MJ.m in Sources */,
 				636ECAA62299177900F292C2 /* NSString+JGFunc.m in Sources */,
 				636ECA8E2299177900F292C2 /* UIView+Animation.m in Sources */,
@@ -969,15 +1038,18 @@
 				636ECAA82299177900F292C2 /* NSString+JGCache.m in Sources */,
 				63B12C8B22A4EFDA0095BEC6 /* JGHomeController.m in Sources */,
 				636ECAB42299177900F292C2 /* YBModelFile.m in Sources */,
+				632A202922A8F4650008118D /* JGStringAttribute.m in Sources */,
 				636ECA962299177900F292C2 /* UIControl+JGBtnClickLimit.m in Sources */,
 				63B12C8222A4EF680095BEC6 /* JGNavigationController.m in Sources */,
 				636ECAB12299177900F292C2 /* YBMFFileHHandler.m in Sources */,
 				636ECA982299177900F292C2 /* UILabel+JGAutoFrame.m in Sources */,
 				636ECABC22991A0E00F292C2 /* JGSaveDownImageTool.m in Sources */,
+				632A202522A8F4650008118D /* NSString+JGStringAttribute.m in Sources */,
 				636ECA9D2299177900F292C2 /* NSMutableArray+JGSafe.m in Sources */,
 				636ECAB02299177900F292C2 /* YBMFFileNoteHandler.m in Sources */,
 				636ECAA52299177900F292C2 /* NSString+JGDecimalNumber.m in Sources */,
 				636ECA9F2299177900F292C2 /* NSMutableString+JGSafe.m in Sources */,
+				632A202A22A8F4650008118D /* JGAttributeStringTool.m in Sources */,
 				636ECAAD2299177900F292C2 /* ZYConst.m in Sources */,
 				636ECA802299177900F292C2 /* Reachability.m in Sources */,
 				636ECAB32299177900F292C2 /* YBMFConfig.m in Sources */,
