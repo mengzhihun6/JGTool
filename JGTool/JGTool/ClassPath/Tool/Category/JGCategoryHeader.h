@@ -12,6 +12,8 @@
 #import "UIViewController+JGPopBlock.h"
 #import "UIBarButtonItem+JGAddition.h"
 #import "UIScrollView+JGAllowPanGestureEventPass.h"
+#import "MBProgressHUD+MJ.h"
+
 
 //UIView
 #import "UIView+JGExtension.h"

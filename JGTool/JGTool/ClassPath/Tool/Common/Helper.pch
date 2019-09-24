@@ -86,6 +86,10 @@
 #define USER_TOKEN [JGCommonTools getUserDefaultsWithKey:@"token"]
 
 
+
+
+
+
 /***********************  快速设置  *************************/
 #define JGApplication  [UIApplication sharedApplication]
 #define JGUserDefaults [NSUserDefaults standardUserDefaults]

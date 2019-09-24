@@ -13,6 +13,24 @@
 		632A202822A8F4650008118D /* JGFontAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A201B22A8F4640008118D /* JGFontAttribute.m */; };
 		632A202922A8F4650008118D /* JGStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A202222A8F4640008118D /* JGStringAttribute.m */; };
 		632A202A22A8F4650008118D /* JGAttributeStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A202422A8F4640008118D /* JGAttributeStringTool.m */; };
+		633D7AFE2339ECAE00BA73E8 /* ZYHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AF82339ECAE00BA73E8 /* ZYHttpManager.m */; };
+		633D7AFF2339ECAE00BA73E8 /* ZYHttpApiConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AF92339ECAE00BA73E8 /* ZYHttpApiConst.m */; };
+		633D7B002339ECAE00BA73E8 /* ZYHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AFA2339ECAE00BA73E8 /* ZYHttpModel.m */; };
+		633D7B142339ECB800BA73E8 /* HDateChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B022339ECB800BA73E8 /* HDateChange.m */; };
+		633D7B152339ECB800BA73E8 /* ntp.hosts in Resources */ = {isa = PBXBuildFile; fileRef = 633D7B032339ECB800BA73E8 /* ntp.hosts */; };
+		633D7B162339ECB800BA73E8 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B052339ECB800BA73E8 /* GCDAsyncUdpSocket.m */; };
+		633D7B172339ECB800BA73E8 /* JGTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B072339ECB800BA73E8 /* JGTimeTool.m */; };
+		633D7B182339ECB800BA73E8 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B0B2339ECB800BA73E8 /* NSDate+NetworkClock.m */; };
+		633D7B192339ECB800BA73E8 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 633D7B0C2339ECB800BA73E8 /* Notes */; };
+		633D7B1A2339ECB800BA73E8 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B102339ECB800BA73E8 /* NetAssociation.m */; };
+		633D7B1B2339ECB800BA73E8 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B112339ECB800BA73E8 /* NetworkClock.m */; };
+		633D7B352339ED2500BA73E8 /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B252339ED2500BA73E8 /* LYEmptyBaseView.m */; };
+		633D7B362339ED2500BA73E8 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B272339ED2500BA73E8 /* UIView+Empty.m */; };
+		633D7B372339ED2500BA73E8 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B282339ED2500BA73E8 /* UIView+LYExtension.m */; };
+		633D7B382339ED2500BA73E8 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B2B2339ED2500BA73E8 /* LYEmptyView.m */; };
+		633D7B392339ED2500BA73E8 /* JGDIYEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B2E2339ED2500BA73E8 /* JGDIYEmpty.m */; };
+		633D7B3A2339ED2500BA73E8 /* JGEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B2F2339ED2500BA73E8 /* JGEmptyView.m */; };
+		633D7B3B2339ED2500BA73E8 /* JGToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7B312339ED2500BA73E8 /* JGToast.m */; };
 		636EC75C2299162E00F292C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EC75B2299162E00F292C2 /* AppDelegate.m */; };
 		636EC75F2299162E00F292C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EC75E2299162E00F292C2 /* ViewController.m */; };
 		636EC7622299162E00F292C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636EC7602299162E00F292C2 /* Main.storyboard */; };
@@ -25,7 +43,6 @@
 		636ECA812299177900F292C2 /* QJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA022299177800F292C2 /* QJTextView.m */; };
 		636ECA842299177900F292C2 /* QJCustomHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA082299177800F292C2 /* QJCustomHUD.m */; };
 		636ECA852299177900F292C2 /* JGProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA0A2299177800F292C2 /* JGProgressBar.m */; };
-		636ECA862299177900F292C2 /* JGToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA0D2299177800F292C2 /* JGToast.m */; };
 		636ECA872299177900F292C2 /* UIImage+JGGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA132299177800F292C2 /* UIImage+JGGif.m */; };
 		636ECA882299177900F292C2 /* UIImage+JGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA162299177800F292C2 /* UIImage+JGColor.m */; };
 		636ECA892299177900F292C2 /* UIImage+JGQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECA172299177800F292C2 /* UIImage+JGQRCode.m */; };
@@ -77,13 +94,17 @@
 		636ECACA22991A9400F292C2 /* JGWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECAC522991A9400F292C2 /* JGWeakProxy.m */; };
 		636ECACB22991A9400F292C2 /* JGFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECAC722991A9400F292C2 /* JGFPSLabel.m */; };
 		636ECAD022991B0B00F292C2 /* JGLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 636ECACF22991B0A00F292C2 /* JGLocationUtil.m */; };
-		63B12C6922A4EBAA0095BEC6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C6722A4EBAA0095BEC6 /* MBProgressHUD.m */; };
 		63B12C8222A4EF680095BEC6 /* JGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8122A4EF680095BEC6 /* JGNavigationController.m */; };
 		63B12C8522A4EF9F0095BEC6 /* JGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8422A4EF9F0095BEC6 /* JGTabBarController.m */; };
 		63B12C8822A4EFB20095BEC6 /* JGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8722A4EFB20095BEC6 /* JGBaseViewController.m */; };
 		63B12C8B22A4EFDA0095BEC6 /* JGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8A22A4EFDA0095BEC6 /* JGHomeController.m */; };
 		63B12C8E22A4EFF00095BEC6 /* JGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C8D22A4EFF00095BEC6 /* JGMineController.m */; };
 		63B12C9122A4F95D0095BEC6 /* JGWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B12C9022A4F95D0095BEC6 /* JGWKWebViewController.m */; };
+		63EEC2392339F40A00F61ACB /* ZYWebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EEC2312339F40A00F61ACB /* ZYWebSocketManager.m */; };
+		63EEC23B2339F40A00F61ACB /* ZYAWSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EEC2382339F40A00F61ACB /* ZYAWSManager.m */; };
+		C2CD920D5DF486EF92DD68B0 /* libPods-JGToolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 872AA223EBBD5B7F4D0CC44E /* libPods-JGToolTests.a */; };
+		F532FAFDB2D97C437B7FD239 /* libPods-JGTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0789C38606B23A29A020629 /* libPods-JGTool.a */; };
+		FB5BBE525B4840AE6E9F9BA4 /* libPods-JGToolUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE010459935348E24710BED3 /* libPods-JGToolUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +125,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CAEE51756FEA4A6590B1DA3 /* Pods-JGToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGToolUITests/Pods-JGToolUITests.release.xcconfig"; sourceTree = "<group>"; };
 		632A201522A8F4640008118D /* NSString+JGStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JGStringAttribute.h"; sourceTree = "<group>"; };
 		632A201622A8F4640008118D /* NSMutableAttributedString+JGStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+JGStringAttribute.h"; sourceTree = "<group>"; };
 		632A201722A8F4640008118D /* NSString+JGStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JGStringAttribute.m"; sourceTree = "<group>"; };
@@ -118,6 +140,43 @@
 		632A202222A8F4640008118D /* JGStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGStringAttribute.m; sourceTree = "<group>"; };
 		632A202322A8F4640008118D /* JGStringAttributeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGStringAttributeHelper.h; sourceTree = "<group>"; };
 		632A202422A8F4640008118D /* JGAttributeStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAttributeStringTool.m; sourceTree = "<group>"; };
+		633D7AF82339ECAE00BA73E8 /* ZYHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttpManager.m; sourceTree = "<group>"; };
+		633D7AF92339ECAE00BA73E8 /* ZYHttpApiConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttpApiConst.m; sourceTree = "<group>"; };
+		633D7AFA2339ECAE00BA73E8 /* ZYHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttpModel.m; sourceTree = "<group>"; };
+		633D7AFB2339ECAE00BA73E8 /* ZYHttpApiConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHttpApiConst.h; sourceTree = "<group>"; };
+		633D7AFC2339ECAE00BA73E8 /* ZYHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHttpManager.h; sourceTree = "<group>"; };
+		633D7AFD2339ECAE00BA73E8 /* ZYHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHttpModel.h; sourceTree = "<group>"; };
+		633D7B022339ECB800BA73E8 /* HDateChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDateChange.m; sourceTree = "<group>"; };
+		633D7B032339ECB800BA73E8 /* ntp.hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntp.hosts; sourceTree = "<group>"; };
+		633D7B052339ECB800BA73E8 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		633D7B062339ECB800BA73E8 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		633D7B072339ECB800BA73E8 /* JGTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTimeTool.m; sourceTree = "<group>"; };
+		633D7B092339ECB800BA73E8 /* NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		633D7B0A2339ECB800BA73E8 /* NetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		633D7B0B2339ECB800BA73E8 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		633D7B0C2339ECB800BA73E8 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		633D7B0D2339ECB800BA73E8 /* ios-ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		633D7B0E2339ECB800BA73E8 /* ntp-log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ntp-log.h"; sourceTree = "<group>"; };
+		633D7B0F2339ECB800BA73E8 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		633D7B102339ECB800BA73E8 /* NetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		633D7B112339ECB800BA73E8 /* NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		633D7B122339ECB800BA73E8 /* HDateChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDateChange.h; sourceTree = "<group>"; };
+		633D7B132339ECB800BA73E8 /* JGTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTimeTool.h; sourceTree = "<group>"; };
+		633D7B222339ED2500BA73E8 /* JGDIYEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDIYEmpty.h; sourceTree = "<group>"; };
+		633D7B232339ED2500BA73E8 /* JGEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGEmptyView.h; sourceTree = "<group>"; };
+		633D7B252339ED2500BA73E8 /* LYEmptyBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyBaseView.m; sourceTree = "<group>"; };
+		633D7B262339ED2500BA73E8 /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
+		633D7B272339ED2500BA73E8 /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
+		633D7B282339ED2500BA73E8 /* UIView+LYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYExtension.m"; sourceTree = "<group>"; };
+		633D7B292339ED2500BA73E8 /* LYEmptyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyBaseView.h; sourceTree = "<group>"; };
+		633D7B2A2339ED2500BA73E8 /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewHeader.h; sourceTree = "<group>"; };
+		633D7B2B2339ED2500BA73E8 /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
+		633D7B2C2339ED2500BA73E8 /* UIView+LYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYExtension.h"; sourceTree = "<group>"; };
+		633D7B2D2339ED2500BA73E8 /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
+		633D7B2E2339ED2500BA73E8 /* JGDIYEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDIYEmpty.m; sourceTree = "<group>"; };
+		633D7B2F2339ED2500BA73E8 /* JGEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGEmptyView.m; sourceTree = "<group>"; };
+		633D7B312339ED2500BA73E8 /* JGToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGToast.m; sourceTree = "<group>"; };
+		633D7B322339ED2500BA73E8 /* JGToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGToast.h; sourceTree = "<group>"; };
 		636EC7572299162E00F292C2 /* JGTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636EC75A2299162E00F292C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		636EC75B2299162E00F292C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,8 +202,6 @@
 		636ECA092299177800F292C2 /* QJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJTextView.h; sourceTree = "<group>"; };
 		636ECA0A2299177800F292C2 /* JGProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressBar.m; sourceTree = "<group>"; };
 		636ECA0B2299177800F292C2 /* QJCustomHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJCustomHUD.h; sourceTree = "<group>"; };
-		636ECA0D2299177800F292C2 /* JGToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGToast.m; sourceTree = "<group>"; };
-		636ECA0E2299177800F292C2 /* JGToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGToast.h; sourceTree = "<group>"; };
 		636ECA112299177800F292C2 /* UIImage+JGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JGColor.h"; sourceTree = "<group>"; };
 		636ECA122299177800F292C2 /* UIImage+JGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JGQRCode.h"; sourceTree = "<group>"; };
 		636ECA132299177800F292C2 /* UIImage+JGGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JGGif.m"; sourceTree = "<group>"; };
@@ -251,8 +308,6 @@
 		636ECACC22991ADD00F292C2 /* HMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSingleton.h; sourceTree = "<group>"; };
 		636ECACE22991B0A00F292C2 /* JGLocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGLocationUtil.h; sourceTree = "<group>"; };
 		636ECACF22991B0A00F292C2 /* JGLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGLocationUtil.m; sourceTree = "<group>"; };
-		63B12C6722A4EBAA0095BEC6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		63B12C6822A4EBAA0095BEC6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		63B12C8022A4EF680095BEC6 /* JGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGNavigationController.h; sourceTree = "<group>"; };
 		63B12C8122A4EF680095BEC6 /* JGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGNavigationController.m; sourceTree = "<group>"; };
 		63B12C8322A4EF9F0095BEC6 /* JGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGTabBarController.h; sourceTree = "<group>"; };
@@ -265,6 +320,19 @@
 		63B12C8D22A4EFF00095BEC6 /* JGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGMineController.m; sourceTree = "<group>"; };
 		63B12C8F22A4F95D0095BEC6 /* JGWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGWKWebViewController.h; sourceTree = "<group>"; };
 		63B12C9022A4F95D0095BEC6 /* JGWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGWKWebViewController.m; sourceTree = "<group>"; };
+		63EEC2312339F40A00F61ACB /* ZYWebSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWebSocketManager.m; sourceTree = "<group>"; };
+		63EEC2332339F40A00F61ACB /* ZYWebSocketHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWebSocketHeader.h; sourceTree = "<group>"; };
+		63EEC2342339F40A00F61ACB /* ZYWebSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWebSocketManager.h; sourceTree = "<group>"; };
+		63EEC2372339F40A00F61ACB /* ZYAWSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAWSManager.h; sourceTree = "<group>"; };
+		63EEC2382339F40A00F61ACB /* ZYAWSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAWSManager.m; sourceTree = "<group>"; };
+		7CED857B69D520F76A80857A /* Pods-JGToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGToolTests/Pods-JGToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		800BCEDC13A5E1E1E2F02CDE /* Pods-JGTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGTool/Pods-JGTool.release.xcconfig"; sourceTree = "<group>"; };
+		872AA223EBBD5B7F4D0CC44E /* libPods-JGToolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGToolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0789C38606B23A29A020629 /* libPods-JGTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52E6F14F4D099273320BE7F /* Pods-JGToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGToolUITests/Pods-JGToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7260D9D28D8682203D7E729 /* Pods-JGToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGToolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGToolTests/Pods-JGToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE010459935348E24710BED3 /* libPods-JGToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB96C238F0F867F175FC10AB /* Pods-JGTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGTool/Pods-JGTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F532FAFDB2D97C437B7FD239 /* libPods-JGTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +348,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CD920D5DF486EF92DD68B0 /* libPods-JGToolTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +356,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5BBE525B4840AE6E9F9BA4 /* libPods-JGToolUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +408,95 @@
 			path = JGAbstractAttribute;
 			sourceTree = "<group>";
 		};
+		633D7AF72339ECAE00BA73E8 /* HttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				633D7AFB2339ECAE00BA73E8 /* ZYHttpApiConst.h */,
+				633D7AF92339ECAE00BA73E8 /* ZYHttpApiConst.m */,
+				633D7AFC2339ECAE00BA73E8 /* ZYHttpManager.h */,
+				633D7AF82339ECAE00BA73E8 /* ZYHttpManager.m */,
+				633D7AFA2339ECAE00BA73E8 /* ZYHttpModel.m */,
+				633D7AFD2339ECAE00BA73E8 /* ZYHttpModel.h */,
+			);
+			path = HttpManager;
+			sourceTree = "<group>";
+		};
+		633D7B012339ECB800BA73E8 /* JGTimeServer */ = {
+			isa = PBXGroup;
+			children = (
+				633D7B022339ECB800BA73E8 /* HDateChange.m */,
+				633D7B032339ECB800BA73E8 /* ntp.hosts */,
+				633D7B042339ECB800BA73E8 /* network-udp */,
+				633D7B072339ECB800BA73E8 /* JGTimeTool.m */,
+				633D7B082339ECB800BA73E8 /* ios-ntp-lib */,
+				633D7B122339ECB800BA73E8 /* HDateChange.h */,
+				633D7B132339ECB800BA73E8 /* JGTimeTool.h */,
+			);
+			path = JGTimeServer;
+			sourceTree = "<group>";
+		};
+		633D7B042339ECB800BA73E8 /* network-udp */ = {
+			isa = PBXGroup;
+			children = (
+				633D7B052339ECB800BA73E8 /* GCDAsyncUdpSocket.m */,
+				633D7B062339ECB800BA73E8 /* GCDAsyncUdpSocket.h */,
+			);
+			path = "network-udp";
+			sourceTree = "<group>";
+		};
+		633D7B082339ECB800BA73E8 /* ios-ntp-lib */ = {
+			isa = PBXGroup;
+			children = (
+				633D7B092339ECB800BA73E8 /* NetworkClock.h */,
+				633D7B0A2339ECB800BA73E8 /* NetAssociation.h */,
+				633D7B0B2339ECB800BA73E8 /* NSDate+NetworkClock.m */,
+				633D7B0C2339ECB800BA73E8 /* Notes */,
+				633D7B0D2339ECB800BA73E8 /* ios-ntp.h */,
+				633D7B0E2339ECB800BA73E8 /* ntp-log.h */,
+				633D7B0F2339ECB800BA73E8 /* NSDate+NetworkClock.h */,
+				633D7B102339ECB800BA73E8 /* NetAssociation.m */,
+				633D7B112339ECB800BA73E8 /* NetworkClock.m */,
+			);
+			path = "ios-ntp-lib";
+			sourceTree = "<group>";
+		};
+		633D7B212339ED2500BA73E8 /* JGEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				633D7B222339ED2500BA73E8 /* JGDIYEmpty.h */,
+				633D7B232339ED2500BA73E8 /* JGEmptyView.h */,
+				633D7B242339ED2500BA73E8 /* LYEmptyView */,
+				633D7B2E2339ED2500BA73E8 /* JGDIYEmpty.m */,
+				633D7B2F2339ED2500BA73E8 /* JGEmptyView.m */,
+			);
+			path = JGEmptyView;
+			sourceTree = "<group>";
+		};
+		633D7B242339ED2500BA73E8 /* LYEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				633D7B252339ED2500BA73E8 /* LYEmptyBaseView.m */,
+				633D7B262339ED2500BA73E8 /* LYEmptyView.h */,
+				633D7B272339ED2500BA73E8 /* UIView+Empty.m */,
+				633D7B282339ED2500BA73E8 /* UIView+LYExtension.m */,
+				633D7B292339ED2500BA73E8 /* LYEmptyBaseView.h */,
+				633D7B2A2339ED2500BA73E8 /* LYEmptyViewHeader.h */,
+				633D7B2B2339ED2500BA73E8 /* LYEmptyView.m */,
+				633D7B2C2339ED2500BA73E8 /* UIView+LYExtension.h */,
+				633D7B2D2339ED2500BA73E8 /* UIView+Empty.h */,
+			);
+			path = LYEmptyView;
+			sourceTree = "<group>";
+		};
+		633D7B302339ED2500BA73E8 /* JGToast */ = {
+			isa = PBXGroup;
+			children = (
+				633D7B312339ED2500BA73E8 /* JGToast.m */,
+				633D7B322339ED2500BA73E8 /* JGToast.h */,
+			);
+			path = JGToast;
+			sourceTree = "<group>";
+		};
 		636EC74E2299162E00F292C2 = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +504,8 @@
 				636EC7722299163000F292C2 /* JGToolTests */,
 				636EC77D2299163000F292C2 /* JGToolUITests */,
 				636EC7582299162E00F292C2 /* Products */,
+				8B7A73FE4A551D6F11563F9D /* Pods */,
+				E76EF78830CF7B6670A0291D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -390,8 +552,6 @@
 		636EC9FB2299177800F292C2 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
-				63B12C6822A4EBAA0095BEC6 /* MBProgressHUD.h */,
-				63B12C6722A4EBAA0095BEC6 /* MBProgressHUD.m */,
 				636EC9FC2299177800F292C2 /* Reachability */,
 			);
 			path = ThirdLib;
@@ -410,23 +570,13 @@
 			isa = PBXGroup;
 			children = (
 				636ECA012299177800F292C2 /* JGProgressBar.h */,
-				636ECA022299177800F292C2 /* QJTextView.m */,
-				636ECA082299177800F292C2 /* QJCustomHUD.m */,
-				636ECA092299177800F292C2 /* QJTextView.h */,
 				636ECA0A2299177800F292C2 /* JGProgressBar.m */,
+				636ECA092299177800F292C2 /* QJTextView.h */,
+				636ECA022299177800F292C2 /* QJTextView.m */,
 				636ECA0B2299177800F292C2 /* QJCustomHUD.h */,
-				636ECA0C2299177800F292C2 /* JGToast */,
+				636ECA082299177800F292C2 /* QJCustomHUD.m */,
 			);
 			path = CommonView;
-			sourceTree = "<group>";
-		};
-		636ECA0C2299177800F292C2 /* JGToast */ = {
-			isa = PBXGroup;
-			children = (
-				636ECA0D2299177800F292C2 /* JGToast.m */,
-				636ECA0E2299177800F292C2 /* JGToast.h */,
-			);
-			path = JGToast;
 			sourceTree = "<group>";
 		};
 		636ECA0F2299177800F292C2 /* Category */ = {
@@ -649,6 +799,7 @@
 		636ECABD22991A9400F292C2 /* DEBUG */ = {
 			isa = PBXGroup;
 			children = (
+				636ECA6A2299177800F292C2 /* JGCreateModelFile */,
 				636ECABE22991A9400F292C2 /* NSObject+CZRuntime.h */,
 				636ECABF22991A9400F292C2 /* NSObject+CZRuntime.m */,
 				636ECAC022991A9400F292C2 /* Log */,
@@ -690,15 +841,16 @@
 			isa = PBXGroup;
 			children = (
 				636EC9FF2299177800F292C2 /* JGToolsHeader.h */,
+				63EEC2042339F15000F61ACB /* NetWork */,
+				633D7B212339ED2500BA73E8 /* JGEmptyView */,
+				633D7B302339ED2500BA73E8 /* JGToast */,
+				633D7B012339ECB800BA73E8 /* JGTimeServer */,
 				632A201322A8F4640008118D /* StringAttribute */,
 				636ECA642299177800F292C2 /* Common */,
-				636ECACD22991B0A00F292C2 /* LocationUtil */,
 				636ECABD22991A9400F292C2 /* DEBUG */,
-				636ECAB922991A0E00F292C2 /* DownImageTool */,
 				636ECA0F2299177800F292C2 /* Category */,
 				636ECA002299177800F292C2 /* CommonView */,
 				636EC9FB2299177800F292C2 /* ThirdLib */,
-				636ECA6A2299177800F292C2 /* JGCreateModelFile */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -859,6 +1011,60 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		63EEC2042339F15000F61ACB /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				63EEC2362339F40A00F61ACB /* AWSS3Manager */,
+				63EEC2302339F40A00F61ACB /* WebSocket */,
+				633D7AF72339ECAE00BA73E8 /* HttpManager */,
+				636ECACD22991B0A00F292C2 /* LocationUtil */,
+				636ECAB922991A0E00F292C2 /* DownImageTool */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		63EEC2302339F40A00F61ACB /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				63EEC2332339F40A00F61ACB /* ZYWebSocketHeader.h */,
+				63EEC2342339F40A00F61ACB /* ZYWebSocketManager.h */,
+				63EEC2312339F40A00F61ACB /* ZYWebSocketManager.m */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		63EEC2362339F40A00F61ACB /* AWSS3Manager */ = {
+			isa = PBXGroup;
+			children = (
+				63EEC2372339F40A00F61ACB /* ZYAWSManager.h */,
+				63EEC2382339F40A00F61ACB /* ZYAWSManager.m */,
+			);
+			path = AWSS3Manager;
+			sourceTree = "<group>";
+		};
+		8B7A73FE4A551D6F11563F9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB96C238F0F867F175FC10AB /* Pods-JGTool.debug.xcconfig */,
+				800BCEDC13A5E1E1E2F02CDE /* Pods-JGTool.release.xcconfig */,
+				7CED857B69D520F76A80857A /* Pods-JGToolTests.debug.xcconfig */,
+				C7260D9D28D8682203D7E729 /* Pods-JGToolTests.release.xcconfig */,
+				C52E6F14F4D099273320BE7F /* Pods-JGToolUITests.debug.xcconfig */,
+				4CAEE51756FEA4A6590B1DA3 /* Pods-JGToolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E76EF78830CF7B6670A0291D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0789C38606B23A29A020629 /* libPods-JGTool.a */,
+				872AA223EBBD5B7F4D0CC44E /* libPods-JGToolTests.a */,
+				CE010459935348E24710BED3 /* libPods-JGToolUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -866,9 +1072,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636EC7832299163000F292C2 /* Build configuration list for PBXNativeTarget "JGTool" */;
 			buildPhases = (
+				6565A395C2DF53DD0B662ED7 /* [CP] Check Pods Manifest.lock */,
 				636EC7532299162E00F292C2 /* Sources */,
 				636EC7542299162E00F292C2 /* Frameworks */,
 				636EC7552299162E00F292C2 /* Resources */,
+				38A7890693C107F67783AC13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -883,6 +1091,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636EC7862299163000F292C2 /* Build configuration list for PBXNativeTarget "JGToolTests" */;
 			buildPhases = (
+				33CCEB5E48E9D60B3B19BE45 /* [CP] Check Pods Manifest.lock */,
 				636EC76B2299163000F292C2 /* Sources */,
 				636EC76C2299163000F292C2 /* Frameworks */,
 				636EC76D2299163000F292C2 /* Resources */,
@@ -901,6 +1110,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636EC7892299163000F292C2 /* Build configuration list for PBXNativeTarget "JGToolUITests" */;
 			buildPhases = (
+				23319493E12A33206760C17E /* [CP] Check Pods Manifest.lock */,
 				636EC7762299163000F292C2 /* Sources */,
 				636EC7772299163000F292C2 /* Frameworks */,
 				636EC7782299163000F292C2 /* Resources */,
@@ -963,7 +1173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				636EC7672299163000F292C2 /* LaunchScreen.storyboard in Resources */,
+				633D7B192339ECB800BA73E8 /* Notes in Resources */,
 				636EC7642299163000F292C2 /* Assets.xcassets in Resources */,
+				633D7B152339ECB800BA73E8 /* ntp.hosts in Resources */,
 				636EC7622299162E00F292C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -984,19 +1196,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23319493E12A33206760C17E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33CCEB5E48E9D60B3B19BE45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38A7890693C107F67783AC13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JGTool/Pods-JGTool-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JGTool/Pods-JGTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6565A395C2DF53DD0B662ED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		636EC7532299162E00F292C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				636ECAAE2299177900F292C2 /* YBMFFileMHandler.m in Sources */,
-				636ECA862299177900F292C2 /* JGToast.m in Sources */,
 				636ECA8C2299177900F292C2 /* UIView+JGExtension.m in Sources */,
 				636ECAB52299177900F292C2 /* YBMFNode.m in Sources */,
 				636ECAD022991B0B00F292C2 /* JGLocationUtil.m in Sources */,
 				636ECA932299177900F292C2 /* UIScrollView+JGAllowPanGestureEventPass.m in Sources */,
 				636ECAAF2299177900F292C2 /* YBMFNameHandler.m in Sources */,
-				63B12C6922A4EBAA0095BEC6 /* MBProgressHUD.m in Sources */,
 				636ECAA72299177900F292C2 /* NSString+JGUrl.m in Sources */,
 				632A202622A8F4650008118D /* NSMutableAttributedString+JGStringAttribute.m in Sources */,
 				636ECAAC2299177900F292C2 /* JGCommonTools.m in Sources */,
@@ -1004,15 +1291,19 @@
 				636ECAA12299177900F292C2 /* QJFormatDateTime.m in Sources */,
 				636ECA8A2299177900F292C2 /* UIImage+JGSubImage.m in Sources */,
 				636ECAB22299177900F292C2 /* YBMFCodeForParentHandler.m in Sources */,
+				633D7B002339ECAE00BA73E8 /* ZYHttpModel.m in Sources */,
 				636ECA912299177900F292C2 /* UIButton+JGLayout.m in Sources */,
 				632A202822A8F4650008118D /* JGFontAttribute.m in Sources */,
 				632A202722A8F4650008118D /* JGForegroundColorAttribute.m in Sources */,
 				636ECA952299177900F292C2 /* MBProgressHUD+MJ.m in Sources */,
+				633D7B3B2339ED2500BA73E8 /* JGToast.m in Sources */,
+				633D7AFF2339ECAE00BA73E8 /* ZYHttpApiConst.m in Sources */,
 				636ECAA62299177900F292C2 /* NSString+JGFunc.m in Sources */,
 				636ECA8E2299177900F292C2 /* UIView+Animation.m in Sources */,
 				636EC75F2299162E00F292C2 /* ViewController.m in Sources */,
 				636ECACB22991A9400F292C2 /* JGFPSLabel.m in Sources */,
 				636ECAB62299177900F292C2 /* JGModelFileTool.m in Sources */,
+				633D7B352339ED2500BA73E8 /* LYEmptyBaseView.m in Sources */,
 				636ECAC922991A9400F292C2 /* NSDictionary+Extension.m in Sources */,
 				636ECAC822991A9400F292C2 /* NSObject+CZRuntime.m in Sources */,
 				636ECAA32299177900F292C2 /* NSDate+JGExtension.m in Sources */,
@@ -1022,7 +1313,9 @@
 				636EC76A2299163000F292C2 /* main.m in Sources */,
 				636ECA902299177900F292C2 /* UIViewController+JGPopBlock.m in Sources */,
 				636ECA8F2299177900F292C2 /* UIColor+JGHexColor.m in Sources */,
+				633D7B182339ECB800BA73E8 /* NSDate+NetworkClock.m in Sources */,
 				636ECAA22299177900F292C2 /* NSCalendar+JGExtension.m in Sources */,
+				633D7B142339ECB800BA73E8 /* HDateChange.m in Sources */,
 				636ECA812299177900F292C2 /* QJTextView.m in Sources */,
 				636ECA882299177900F292C2 /* UIImage+JGColor.m in Sources */,
 				636ECA9A2299177900F292C2 /* NSDictionary+JGSafe.m in Sources */,
@@ -1032,12 +1325,18 @@
 				636ECAA02299177900F292C2 /* NSData+Hex.m in Sources */,
 				636ECA892299177900F292C2 /* UIImage+JGQRCode.m in Sources */,
 				636ECACA22991A9400F292C2 /* JGWeakProxy.m in Sources */,
+				633D7B1A2339ECB800BA73E8 /* NetAssociation.m in Sources */,
 				636ECA9C2299177900F292C2 /* NSMutableDictionary+JGSafe.m in Sources */,
 				636ECA872299177900F292C2 /* UIImage+JGGif.m in Sources */,
 				636ECA852299177900F292C2 /* JGProgressBar.m in Sources */,
+				633D7B172339ECB800BA73E8 /* JGTimeTool.m in Sources */,
+				633D7B372339ED2500BA73E8 /* UIView+LYExtension.m in Sources */,
+				63EEC23B2339F40A00F61ACB /* ZYAWSManager.m in Sources */,
 				636ECAA82299177900F292C2 /* NSString+JGCache.m in Sources */,
+				633D7B1B2339ECB800BA73E8 /* NetworkClock.m in Sources */,
 				63B12C8B22A4EFDA0095BEC6 /* JGHomeController.m in Sources */,
 				636ECAB42299177900F292C2 /* YBModelFile.m in Sources */,
+				633D7AFE2339ECAE00BA73E8 /* ZYHttpManager.m in Sources */,
 				632A202922A8F4650008118D /* JGStringAttribute.m in Sources */,
 				636ECA962299177900F292C2 /* UIControl+JGBtnClickLimit.m in Sources */,
 				63B12C8222A4EF680095BEC6 /* JGNavigationController.m in Sources */,
@@ -1046,19 +1345,25 @@
 				636ECABC22991A0E00F292C2 /* JGSaveDownImageTool.m in Sources */,
 				632A202522A8F4650008118D /* NSString+JGStringAttribute.m in Sources */,
 				636ECA9D2299177900F292C2 /* NSMutableArray+JGSafe.m in Sources */,
+				633D7B382339ED2500BA73E8 /* LYEmptyView.m in Sources */,
 				636ECAB02299177900F292C2 /* YBMFFileNoteHandler.m in Sources */,
 				636ECAA52299177900F292C2 /* NSString+JGDecimalNumber.m in Sources */,
 				636ECA9F2299177900F292C2 /* NSMutableString+JGSafe.m in Sources */,
 				632A202A22A8F4650008118D /* JGAttributeStringTool.m in Sources */,
 				636ECAAD2299177900F292C2 /* ZYConst.m in Sources */,
 				636ECA802299177900F292C2 /* Reachability.m in Sources */,
+				633D7B362339ED2500BA73E8 /* UIView+Empty.m in Sources */,
+				633D7B162339ECB800BA73E8 /* GCDAsyncUdpSocket.m in Sources */,
 				636ECAB32299177900F292C2 /* YBMFConfig.m in Sources */,
 				636ECA9E2299177900F292C2 /* NSArray+JGSafe.m in Sources */,
 				636EC75C2299162E00F292C2 /* AppDelegate.m in Sources */,
 				63B12C9122A4F95D0095BEC6 /* JGWKWebViewController.m in Sources */,
+				63EEC2392339F40A00F61ACB /* ZYWebSocketManager.m in Sources */,
+				633D7B3A2339ED2500BA73E8 /* JGEmptyView.m in Sources */,
 				636ECA842299177900F292C2 /* QJCustomHUD.m in Sources */,
 				636ECA942299177900F292C2 /* UILabel+JGExtension.m in Sources */,
 				636ECAA42299177900F292C2 /* NSMutableAttributedString+JGExtension.m in Sources */,
+				633D7B392339ED2500BA73E8 /* JGDIYEmpty.m in Sources */,
 				636ECA992299177900F292C2 /* NSObject+JGImpChangeTool.m in Sources */,
 				636ECA9B2299177900F292C2 /* NSObject+JGSwizzling.m in Sources */,
 			);
@@ -1229,6 +1534,7 @@
 		};
 		636EC7842299163000F292C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB96C238F0F867F175FC10AB /* Pods-JGTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1242,11 +1548,24 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JG.JGTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-receiver-expr",
+					"-Wno-unknown-warning-option",
+					"-Wno-strict-prototypes",
+					"-Wno-documentation",
+					"-Wno-deprecated-implementations",
+					"-Wno-implicit-retain-self",
+					"-Wno-strict-prototypes",
+					"-Wno-unguarded-availability",
+					"-Wno-deprecated-declarations",
+					"-Wno-mismatched-parameter-types",
+				);
 			};
 			name = Debug;
 		};
 		636EC7852299163000F292C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800BCEDC13A5E1E1E2F02CDE /* Pods-JGTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1260,11 +1579,24 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JG.JGTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-receiver-expr",
+					"-Wno-unknown-warning-option",
+					"-Wno-strict-prototypes",
+					"-Wno-documentation",
+					"-Wno-deprecated-implementations",
+					"-Wno-implicit-retain-self",
+					"-Wno-strict-prototypes",
+					"-Wno-unguarded-availability",
+					"-Wno-deprecated-declarations",
+					"-Wno-mismatched-parameter-types",
+				);
 			};
 			name = Release;
 		};
 		636EC7872299163000F292C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CED857B69D520F76A80857A /* Pods-JGToolTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1283,6 +1615,7 @@
 		};
 		636EC7882299163000F292C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7260D9D28D8682203D7E729 /* Pods-JGToolTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1301,6 +1634,7 @@
 		};
 		636EC78A2299163000F292C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52E6F14F4D099273320BE7F /* Pods-JGToolUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JGToolUITests/Info.plist;
@@ -1318,6 +1652,7 @@
 		};
 		636EC78B2299163000F292C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAEE51756FEA4A6590B1DA3 /* Pods-JGToolUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JGToolUITests/Info.plist;

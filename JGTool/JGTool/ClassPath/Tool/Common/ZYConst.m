@@ -11,3 +11,5 @@
 /** 需要登录 通知名称 */
 NSString * const JGNeedShowLoginCtrlNotification = @"JGNeedShowLoginCtrlNotification";
 
+/** 下载的Html模板存储字段 */
+NSString *const FDTempHTMLStr = @"FDTempHTMLStr";
