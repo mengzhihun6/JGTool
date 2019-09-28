@@ -22,10 +22,16 @@
 - [x] CommonView 好用的自定义视图
 
 
-
 ## 网站收集
 [网站收集](https://github.com/mengzhihun6/JGTool/blob/master/DescFile/SiteToCollect.md)
 [前端网站收集](https://github.com/mengzhihun6/JGTool/blob/master/DescFile/H5.md)
+
+
+## 个人博客
+- [地址](https://www.cnblogs.com/GJ-ios/)
+
+### 博客小组
+- [苹果园里的码农](https://group.cnblogs.com/iOSmanong/)
 
 
 
