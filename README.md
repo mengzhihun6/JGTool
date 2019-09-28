@@ -29,6 +29,7 @@
 
 ## 个人博客
 - [博客地址](https://www.cnblogs.com/GJ-ios/)
+- [iOS笔记](https://www.cnblogs.com/GJ-ios/tag/iOS笔记/)
 
 #### 博客小组
 - [苹果园里的码农](https://group.cnblogs.com/iOSmanong/)
