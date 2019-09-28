@@ -23,5 +23,10 @@
 
 
 
+## 网站收集
+[网站收集](https://github.com/mengzhihun6/JGTool/blob/master/SiteToCollect.md)
+[前端网站收集](https://github.com/mengzhihun6/JGTool/blob/master/H5.md)
+
+
 
 ### ~~~ 后期逐渐完善 ~~~

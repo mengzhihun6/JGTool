@@ -2,8 +2,8 @@
 开发中常用网站收集
 
 1、公司开发者账号：
-[https://idmsa.apple.com](https://idmsa.apple.com)
 
+https://idmsa.apple.com
 https://developer.apple.com
 
 Xcode下载：https://developer.apple.com/download/more/
@@ -194,19 +194,13 @@ http://www.runoob.com
 
 
 
-25、苹果开发者平台
-
-https://developer.apple.com
-
-
-
-26、花生壳
+25、花生壳
 
 https://www.oray.com
 
 
 
-27、Swiftv(Swift教程)
+26、Swiftv(Swift教程)
 
 http://www.swiftv.cn/course/explore
 
@@ -218,7 +212,7 @@ https://swiftgg.gitbook.io/swift/swift-jiao-cheng
 
 
 
-28、Oracle官网
+27、Oracle官网
 
 https://www.oracle.com/index.html
 
@@ -226,49 +220,49 @@ JDK下载:http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 
 
-29、LookAE.com | 大众脸影视后期特效
+28、LookAE.com | 大众脸影视后期特效
 
 http://www.lookae.com
 
 
 
-30、易企秀
+29、易企秀
 
 http://store.eqxiu.com
 
 
 
-31、掘金
+30、掘金
 
 https://juejin.im/timeline
 
 
 
-32、威锋网(可下载苹果固件)
+31、威锋网(可下载苹果固件)
 
 http://www.feng.com
 
 
 
-33、在线加密解密
+32、在线加密解密
 
 http://encode.chahuo.com
 
 
 
-34、开发者服务-SDK
+33、开发者服务-SDK
 
 https://sdk.cn/services
 
 
 
-35、CocoaPods app(第三方管理工具)
+34、CocoaPods app(第三方管理工具)
 
 https://cocoapods.org/app
 
 
 
-36、代码管理
+35、代码管理
 
 ①git:  　　  https://github.com
 
@@ -278,19 +272,19 @@ https://cocoapods.org/app
 
 
 
-37、汉王
+36、汉王
 
 http://www.hw99.com
 
 
 
-38、图片压缩（高效）
+37、图片压缩（高效）
 
 https://tinypng.com/
 
 
 
-39、Axure
+38、Axure
 
 秘钥：
 
@@ -300,13 +294,13 @@ gP5uuK2gH+iIVO3YFZwoKyxAdHpXRGNnZWN8Obntqv7++FF3pAz7dTu8B61ySxli
 
 
 
-40、pxcook
+39、pxcook
 
 http://www.fancynode.com.cn/pxcook
 
 
 
-41、亚马逊S3云存储
+40、亚马逊S3云存储
 
 pod 'AWSS3', '~> 2.6.32'  #亚马逊S3云存储
 
@@ -314,19 +308,19 @@ https://aws.amazon.com/cn/blogs/mobile/amazon-s3-transfer-utility-for-ios/
 
 
 
-42、StackOverFlow : 程序相关的IT技术问答网站
+41、StackOverFlow : 程序相关的IT技术问答网站
 
 https://stackoverflow.com
 
 
 
-43、腾讯微云
+42、腾讯微云
 
 https://www.weiyun.com/disk
 
 
 
-44、图标工场-移动应用图标/启动图生成工具
+43、图标工场-移动应用图标/启动图生成工具
 
 http://icon.wuruihong.com
 
@@ -334,13 +328,13 @@ Mac下载工具 ：appicons and launchimages lite
 
 
 
-45、iOS最新吊炸天的资源
+44、iOS最新吊炸天的资源
 
 https://www.jianshu.com/p/96c5b3e1a812
 
 
 
-46、很屌的在线工具
+45、很屌的在线工具
 
 https://tool.lu/index.html
 
