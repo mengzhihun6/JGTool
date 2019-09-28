@@ -28,9 +28,9 @@
 
 
 ## 个人博客
-- [地址](https://www.cnblogs.com/GJ-ios/)
+- [博客地址](https://www.cnblogs.com/GJ-ios/)
 
-### 博客小组
+#### 博客小组
 - [苹果园里的码农](https://group.cnblogs.com/iOSmanong/)
 
 
