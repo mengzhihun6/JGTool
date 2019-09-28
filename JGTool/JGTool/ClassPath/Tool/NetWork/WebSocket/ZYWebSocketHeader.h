@@ -23,6 +23,7 @@
 
 #import "ZYPrintWebSocketManager.h" // 打印WebSocket
 #import "ZYWebSocketManager.h" //同步商品信息WebSocket
+#import "JGSocketRocketUtility.h" //通用工具
 
 
 #endif /* ZYWebSocketHeader_h */

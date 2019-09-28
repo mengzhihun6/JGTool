@@ -13,6 +13,7 @@
 		632A202822A8F4650008118D /* JGFontAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A201B22A8F4640008118D /* JGFontAttribute.m */; };
 		632A202922A8F4650008118D /* JGStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A202222A8F4640008118D /* JGStringAttribute.m */; };
 		632A202A22A8F4650008118D /* JGAttributeStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A202422A8F4640008118D /* JGAttributeStringTool.m */; };
+		63393EB2233EF4FC00DC0061 /* JGSocketRocketUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 63393EB1233EF4FC00DC0061 /* JGSocketRocketUtility.m */; };
 		633D7AFE2339ECAE00BA73E8 /* ZYHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AF82339ECAE00BA73E8 /* ZYHttpManager.m */; };
 		633D7AFF2339ECAE00BA73E8 /* ZYHttpApiConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AF92339ECAE00BA73E8 /* ZYHttpApiConst.m */; };
 		633D7B002339ECAE00BA73E8 /* ZYHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AFA2339ECAE00BA73E8 /* ZYHttpModel.m */; };
@@ -140,6 +141,8 @@
 		632A202222A8F4640008118D /* JGStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGStringAttribute.m; sourceTree = "<group>"; };
 		632A202322A8F4640008118D /* JGStringAttributeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGStringAttributeHelper.h; sourceTree = "<group>"; };
 		632A202422A8F4640008118D /* JGAttributeStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAttributeStringTool.m; sourceTree = "<group>"; };
+		63393EB0233EF4FC00DC0061 /* JGSocketRocketUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGSocketRocketUtility.h; sourceTree = "<group>"; };
+		63393EB1233EF4FC00DC0061 /* JGSocketRocketUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGSocketRocketUtility.m; sourceTree = "<group>"; };
 		633D7AF82339ECAE00BA73E8 /* ZYHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttpManager.m; sourceTree = "<group>"; };
 		633D7AF92339ECAE00BA73E8 /* ZYHttpApiConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttpApiConst.m; sourceTree = "<group>"; };
 		633D7AFA2339ECAE00BA73E8 /* ZYHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttpModel.m; sourceTree = "<group>"; };
@@ -1029,6 +1032,8 @@
 				63EEC2332339F40A00F61ACB /* ZYWebSocketHeader.h */,
 				63EEC2342339F40A00F61ACB /* ZYWebSocketManager.h */,
 				63EEC2312339F40A00F61ACB /* ZYWebSocketManager.m */,
+				63393EB0233EF4FC00DC0061 /* JGSocketRocketUtility.h */,
+				63393EB1233EF4FC00DC0061 /* JGSocketRocketUtility.m */,
 			);
 			path = WebSocket;
 			sourceTree = "<group>";
@@ -1350,6 +1355,7 @@
 				636ECAA52299177900F292C2 /* NSString+JGDecimalNumber.m in Sources */,
 				636ECA9F2299177900F292C2 /* NSMutableString+JGSafe.m in Sources */,
 				632A202A22A8F4650008118D /* JGAttributeStringTool.m in Sources */,
+				63393EB2233EF4FC00DC0061 /* JGSocketRocketUtility.m in Sources */,
 				636ECAAD2299177900F292C2 /* ZYConst.m in Sources */,
 				636ECA802299177900F292C2 /* Reachability.m in Sources */,
 				633D7B362339ED2500BA73E8 /* UIView+Empty.m in Sources */,
